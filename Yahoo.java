@@ -30,7 +30,7 @@ public class Yahoo extends BaseTest{
 	//WebDriver driver;
 	//Priority can be only assigned to @TEST
 /*@Test
-	public void initializeBrowser ()
+	public void initializeBrowseer ()
 	{ 
 	try {
 	
