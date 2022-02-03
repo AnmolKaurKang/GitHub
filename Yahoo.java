@@ -33,7 +33,7 @@ public class Yahoo extends BaseTest{
 	public void initializeBrowser ()
 	{ 
 	try {
-	System.out.print(""ABC");
+	
 	
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\10694225\\Desktop\\SELENIUM\\chromedriver_win32\\chromedriver.exe");
 	DesiredCapabilities ds=new DesiredCapabilities();
@@ -83,7 +83,7 @@ public void Fail()
 
 @Test(priority=1)
 public void nterEmail()
-{
+{        System.out.print(""ABC");
 	WebElement id=driver.findElement(By.id("login-username"));
 	Actions a =new Actions(driver);
 	id.sendKeys("anmol.kang@yahoo.com");
